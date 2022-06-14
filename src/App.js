@@ -28,11 +28,6 @@ function App() {
     <SayHello />
 
     <FooterCompo />
-
-
-
-
-
     </>
   );
 }
