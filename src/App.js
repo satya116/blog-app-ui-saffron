@@ -1,24 +1,39 @@
-import logo from './logo.svg';
 import './App.css';
+import FooterCompo from './components/FooterCompo';
+import HeroCompo from './components/HeroCompo';
+import ImageWithDetailsCompo from './components/ImageWithDetailsCompo';
+import MultiCarouselCompo from './components/MultiCarouselCompo';
+import NavbarCompo from './components/NavbarCompo';
+import OfferCompo from './components/OfferCompo';
+import SayHello from './components/SayHello';
+import ShortReadsCompo from './components/ShortReadsCompo';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <OfferCompo />
+
+    <NavbarCompo />
+
+    <HeroCompo />
+
+    <ImageWithDetailsCompo />
+
+    {/* <ImageWithDetailsCompo /> */}
+
+    <MultiCarouselCompo />
+
+    <ShortReadsCompo />
+
+    <SayHello />
+
+    <FooterCompo />
+
+
+
+
+
+    </>
   );
 }
 
